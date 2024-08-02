@@ -19,7 +19,7 @@ const FormLogin = () => {
             })
 
             if(response.data.status === "success"){
-                window.location.assign('/home')
+                window.location.assign('/dashboard')
                 console.log(response.data.token);
 
                 localStorage.setItem("Token", (response.data.data.token))

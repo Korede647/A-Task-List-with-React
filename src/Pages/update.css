@@ -1,0 +1,16 @@
+.updatesDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  .update{
+      width: 81%;
+      height: 100vh;
+      background-color: #212121;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  a{
+    text-decoration: none;
+  }

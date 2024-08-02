@@ -1,0 +1,9 @@
+.mainDiv{
+    display: flex;
+}
+.dashboard{
+    width: 81%;
+    height: 100vh;
+    background-color: #212121;
+    display: flex;
+}

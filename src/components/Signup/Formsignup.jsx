@@ -20,7 +20,7 @@ const Formsignup = () => {
                 username
             })
             if(response.data.status === "success"){
-                // window.location.assign('/login')
+                window.location.assign('/login')
             }else{
                 console.log(response.data.data);
             }
