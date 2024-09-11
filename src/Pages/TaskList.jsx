@@ -21,7 +21,7 @@ const TaskList = () => {
       const response = await axios.get(GET_URL, {
         headers: { Authorization: `Bearer ${myToken}` },
       });
-      if (response.data.status === "success") {
+      if (response.data.status === "success") { 
         setTasks(response.data.data);
       } else {
         console.log(response.data.message);
