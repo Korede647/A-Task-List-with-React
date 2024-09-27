@@ -12,7 +12,7 @@ const Dashboard = () => {
         <div className="dashboard">
           <DashProps/>
         </div>
-      
+          
     </div>
   )
 }
